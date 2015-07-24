@@ -9,5 +9,5 @@ Based on: https://github.com/mrowa44/emojify
 Quick installation:
 
 ```
-curl https://raw.githubusercontent.com/TheKnarf/irssi-smile/master/irssi-smile.pl -o ~/.irssi/scripts/autorun/
+curl https://raw.githubusercontent.com/TheKnarf/irssi-smile/master/irssi-smile.pl --create-dirs -o ~/.irssi/scripts/autorun/irssi-smile.pl
 ```
