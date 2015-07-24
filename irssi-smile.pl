@@ -818,5 +818,7 @@ sub replace {
 # Register events for incoming messages/actions.
 Irssi::signal_add_last("message public",         "event_input_msg");
 Irssi::signal_add_last("message private",        "event_input_msg");
+Irssi::signal_add_last("message own_public",     "event_input_msg");
+Irssi::signal_add_last("message own_private",    "event_input_msg");
 #Irssi::signal_add_last("event privmsg",			 "event_privmsg")
 
